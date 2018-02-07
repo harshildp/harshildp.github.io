@@ -31,6 +31,9 @@ header.masthead {
       line-height: 50px;
       margin-bottom: 25px;
       @include heading-font;
+      .black {
+        -webkit-text-stroke: 1px black;
+      }
     }
   }
 }
@@ -40,6 +43,7 @@ header.masthead {
       padding-top: 300px;
       padding-bottom: 200px;
       .intro-lead-in {
+        color: black;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;

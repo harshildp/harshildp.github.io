@@ -92,6 +92,9 @@
       margin: 20px 0 30px;
       @include serif-font;
     }
+    p.item-body {
+      text-align:justify;
+    }
     ul.list-inline {
       margin-top: 0;
       margin-bottom: 30px;

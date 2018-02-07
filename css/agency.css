@@ -167,7 +167,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/sunset.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -187,7 +187,7 @@ header.masthead .intro-text .intro-lead-in {
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -208,7 +208,7 @@ header.masthead .intro-text .intro-heading {
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -593,29 +593,52 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/denali.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 section#contact .section-heading {
   color: #fff;
 }
 
-section#contact .form-group {
-  margin-bottom: 25px;
+section#contact .help-block ul {
+  list-style: none;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#contact .help-block ul li {
+  color: white;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+section#contact form {
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
 }
 
-section#contact .form-group input.form-control {
-  height: auto;
+section#contact form .form-group {
+  margin-bottom: 25px;
 }
 
-section#contact .form-group textarea.form-control {
+section#contact form .form-group input,
+section#contact form .form-group textarea {
+  padding: 20px;
+}
+
+section#contact form .form-group input.form-control {
+  height: auto;
+  color: white;
+  background-color: transparent;
+}
+
+section#contact form .form-group textarea.form-control {
+  color: white;
+  background-color: transparent;
   height: 248px;
 }
 
@@ -626,27 +649,27 @@ section#contact .form-control:focus {
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: white;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: white;
   /* Firefox 18- */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: white;
   /* Firefox 19+ */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: white;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 

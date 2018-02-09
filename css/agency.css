@@ -224,6 +224,12 @@ header.masthead .intro-text .intro-heading .black {
   }
 }
 
+@media (max-width: 320px) {
+  header.masthead .intro-text div.intro-lead-in {
+    font-size: 25px;
+  }
+}
+
 .btn-circle {
   font-size: 26px;
   width: 55px;
@@ -424,6 +430,7 @@ header.masthead .intro-text .intro-heading .black {
   padding-top: 35px;
   height: 0;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .video-container iframe {
@@ -435,7 +442,7 @@ header.masthead .intro-text .intro-heading .black {
 }
 
 @media (max-width: 320px) {
-  .modal-content h2 {
+  .portfolio-modal .modal-content h2.text-uppercase {
     font-size: 25px;
   }
 }

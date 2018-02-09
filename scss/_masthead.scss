@@ -60,6 +60,11 @@ header.masthead {
     }
   }
 }
+@media (max-width: 320px) {
+  header.masthead .intro-text div.intro-lead-in {
+    font-size: 25px;
+  }
+}
 .btn-circle {
   font-size: 26px;
 

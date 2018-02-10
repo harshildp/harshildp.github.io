@@ -463,7 +463,7 @@ header.masthead .intro-text .intro-heading .black {
   height: 100%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .portfolio-modal .modal-content h2.text-uppercase {
     font-size: 25px;
   }

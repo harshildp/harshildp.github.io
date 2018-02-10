@@ -467,6 +467,9 @@ header.masthead .intro-text .intro-heading .black {
   .portfolio-modal .modal-content h2.text-uppercase {
     font-size: 30px;
   }
+  .portfolio-modal .modal-content h3 {
+    font-size: 16px;
+  }
 }
 
 .timeline {

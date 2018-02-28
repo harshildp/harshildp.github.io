@@ -39,7 +39,7 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  var src = $('.video-container').children('iframe').attr('src');
+  var src = 'https://www.youtube.com/embed/b-g-IpZrCQY?rel=0';
   
   // Hide navbar when modals trigger
   $('.portfolio-modal').on('show.bs.modal', function(e) {

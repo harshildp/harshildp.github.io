@@ -1,4 +1,4 @@
-# www.harshilpatel.me
+# http://harshildp.github.io
 My portfolio website hosted through the domain name above
 
 ## Technologies Used:
